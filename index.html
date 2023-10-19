@@ -21,11 +21,11 @@
     <script>
       function generateProblem() {
         // Generăm numere aleatoare conform specificațiilor
-        var percent = Math.floor(Math.random() * 101);
+        var percent = Math.floor(Math.random() * 100);
         var massImp = Math.floor(Math.random() * 21);
 
         // Calculăm masa procentului
-        var massP = (percent / 100) * massImp;
+        var massP = (percent / 90) * massImp;
 
         // Afișăm valorile generate în elementele HTML
         document.getElementById("percent").textContent = percent;
